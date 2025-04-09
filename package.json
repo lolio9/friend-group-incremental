@@ -1,0 +1,18 @@
+{
+  "name": "friend-clicker",
+  "version": "1.0.0",
+  "description": "Multiplayer clicker game with leaderboard",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "lowdb": "^1.0.0"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
